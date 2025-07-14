@@ -1,0 +1,30 @@
+Timestamp,Event ID,Event Type,Username,User Role,IP Address (Source),IP Address (Destination),Port (Source),Port (Destination),Protocol,Authentication Status,Malware Detection Status,File Accessed,Firewall Action,Bytes Transferred,Application
+08-01-2025 15:26,3673,file access,david,,192.168.99.225,10.0.252.233,62754,60152,Unknown,sucess,,/home/user/file43.txt,,9296,Remote Desktop
+09-01-2025 00:02,5879,netwrk connection,charlie,,192.168.61.65,10.0.252.50,29177,20182,Unknown,Failure,,/home/user/file2.txt,,403496,Firefox
+03-01-2025 02:07,2823,Failed Attempt,charlie,User,192.168.97.74,10.0.207.200,36974,29775,,FAILURE,Clean,/home/user/file48.txt,,130493,fireox
+09-01-2025 20:43,5366,MALWARE ALERT,Alice,Admin,192.168.21.72,10.0.197.15,2116,1353,TCP,Success,Clean,/home/user/file26.txt,,75535,Firefox
+12-01-2025 04:17,2295,File Access,David,,INVALID_IP,10.0.231.61,6605,13101,Unknown,Success,,,allowd,20125,fireox
+02-01-2025 13:44,4372,netwrk connection,Charlie,User,192.168.87.248,10.0.47.57,45871,64813,,FAILURE,Clean,/home/user/file5.txt,Blocked,376255,chrme
+04-01-2025 02:17,5346,Login,ALICE,Guest,192.168.153.28,10.0.136.63,10451,16962,,sucess,Clean,/home/user/file48.txt,BLOCKED,35330,Chrome
+01-01-2025 15:27,7673,Failed Attempt,Eve,,192.168.129.173,10.0.144.94,61260,53915,TCP,Success,Clean,/home/user/file3.txt,BLOCKED,133566,Remote Desktop
+04-01-2025 03:47,4530,netwrk connection,david,Guest,192.168.38.49,10.0.196.149,54867,24761,TCP,FAILURE,detcted,/home/user/file27.txt,,203940,Remote Desktop
+04-01-2025 09:16,2968,Malware Alert,,User,192.168.104.4,10.0.56.0,-1,13969,,sucess,CLEAN,,BLOCKED,421217,Unknown
+03-01-2025 00:53,4171,netwrk connection,Eve,,192.168.158.137,10.0.95.60,-1,23128,TCP,,Clean,,Allowed,10178,fireox
+08-01-2025 00:37,3543,File Access,charlie,User,192.168.160.208,10.0.57.184,36687,53807,Unknown,sucess,Detected,,BLOCKED,467657,Remote Desktop
+06-01-2025 03:41,8252,netwrk connection,Eve,User,192.168.147.167,10.0.15.217,42988,18451,Unknown,sucess,Clean,,Allowed,125063,Remote Desktop
+08-01-2025 18:23,6637,netwrk connection,charlie,Guest,192.168.3.248,10.0.177.85,-1,8510,,sucess,CLEAN,,allowd,207281,SSH
+05-01-2025 12:23,1184,Failed Attempt,Bob,,192.168.216.248,10.0.193.78,32514,52478,,FAILURE,Clean,,BLOCKED,95685,Remote Desktop
+02-01-2025 21:03,4592,File Access,david,Guest,192.168.251.35,10.0.26.24,37470,44556,ICMP,Success,detcted,,BLOCKED,95899,Unknown
+04-01-2025 02:18,6221,File Access,ALICE,User,192.168.45.63,10.0.32.131,967,56815,TCP,FAILURE,,/home/user/file39.txt,Allowed,437019,
+01-01-2025 00:49,1501,Network Connection,Charlie,Admin,192.168.106.247,10.0.62.206,25597,63861,UDP,sucess,Clean,/home/user/file29.txt,BLOCKED,455811,fireox
+04-01-2025 13:32,7155,File Access,Eve,Guest,192.168.197.231,10.0.127.180,45493,46812,,Failure,Detected,/home/user/file59.txt,Allowed,20422,chrme
+10-01-2025 06:56,8466,file access,David,Guest,192.168.231.35,10.0.210.151,6352,11211,UDP,FAILURE,detcted,/home/user/file9.txt,allowd,461110,fireox
+04-01-2025 22:37,3373,Failed Attempt,david,Guest,192.168.37.156,10.0.143.232,59457,36702,TCP,Success,detcted,,BLOCKED,361625,fireox
+02-01-2025 07:01,1473,File Access,Alice,Guest,192.168.28.81,10.0.67.23,55140,32719,UDP,Success,Clean,/home/user/file8.txt,allowd,41294,Chrome
+10-01-2025 01:55,1226,Network Connection,Bob,,192.168.230.16,10.0.101.243,60433,8798,Unknown,Failure,Detected,,Blocked,117969,Remote Desktop
+01-01-2025 04:25,7621,MALWARE ALERT,David,,192.168.45.162,10.0.90.89,45139,41768,Unknown,Success,Clean,,Allowed,292491,Chrome
+05-01-2025 15:46,6776,Login,,Admin,192.168.176.116,10.0.146.218,9025,34665,ICMP,sucess,detcted,/home/user/file1.txt,Allowed,194173,
+02-01-2025 22:30,4397,Network Connection,Eve,Admin,192.168.165.14,10.0.251.140,41547,59047,,Failure,Detected,/home/user/file46.txt,BLOCKED,156243,Chrome
+09-01-2025 20:44,8127,Login ,Bob,Admin,192.168.233.192,10.0.154.134,44524,56632,Unknown,sucess,detcted,/home/user/file60.txt,Blocked,476294,
+09-01-2025 06:08,3739,File Access,Alice,,192.168.81.73,10.0.23.228,37441,60858,,FAILURE,,,BLOCKED,76633,Firefox
+06-01-2025 20:44,9812,MALWARE ALERT,Alice,User,192.168.18.83,10.0.32.243,26939,57719,Unknown,,,/home/user/file25.txt,,149912,Remote Desktop
